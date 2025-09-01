@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="password" />
         <module name="email" />
         <module name="mei-validator" />
-        <module name="password" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="password (1)" target="1.8" />
       <module name="password-tests" target="1.8" />
     </bytecodeTargetLevel>
   </component>

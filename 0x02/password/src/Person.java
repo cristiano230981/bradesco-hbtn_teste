@@ -1,7 +1,4 @@
-package src;
-
 public class Person {
-
     public boolean checkUser(String username) {
         if (username.length() < 8) return false;
         return username.matches("^[a-zA-Z0-9]+$"); // apenas letras e números
